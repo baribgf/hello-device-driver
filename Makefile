@@ -16,7 +16,7 @@ unload:
 	sudo rmmod $(MODNAME) 2> /dev/null || true
 
 dev:
-	sudo mknod hello c 300 0
+	sudo mknod -m 666 hello c 300 0
 
 clean:
 	rm -f $(SRCDIR)/.*.d $(SRCDIR)/*.mod* \
