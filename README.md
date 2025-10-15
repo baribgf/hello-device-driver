@@ -11,6 +11,9 @@ than illustrating some of the working mechanisms of linux
 kernel drivers, and offering some enjoyable activity for
 linux enthusiasts.
 
+Written by: Abdelbari BOUGOFFA \
+On: Oct 15th, 2025
+
 ## Usage:
 
 1. Build the driver module using:
@@ -34,6 +37,3 @@ cat ./hello  # Outputs: "Hello, World!" when executed for the first time
 echo -n "Mom" > ./hello
 cat ./hello  # Outputs: "Hello, Mom!"
 ```
-
-Written by: Abdelbari BOUGOFFA \
-On: Oct 15th, 2025
