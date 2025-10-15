@@ -1,0 +1,10 @@
+/.vscode
+/bin/*
+/hello
+/Module.symvers
+/modules.order
+
+!.gitkeep
+*.cmd
+*.mod*
+*.o
